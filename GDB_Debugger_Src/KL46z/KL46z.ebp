@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="KL46z" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\KL46z.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Device>
+					<Add option="$device=cortex-m0plus" />
+					<Add option="$lscript=..\src\MKL46Z4.ld" />
+				</Device>
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g2" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\KL46z.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\inc\arm_common_tables.h" />
+		<Unit filename="..\inc\arm_math.h" />
+		<Unit filename="..\inc\core_cm0plus.h" />
+		<Unit filename="..\inc\core_cmFunc.h" />
+		<Unit filename="..\inc\core_cmInstr.h" />
+		<Unit filename="..\inc\MKL46Z4.h" />
+		<Unit filename="..\inc\system_MKL46Z4.h" />
+		<Unit filename="..\src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\startup_MKL46Z4.s">
+			<Option compilerVar="ASM" />
+		</Unit>
+		<Unit filename="..\src\system_MKL46Z4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="J-link">
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="C:\Program Files\SEGGER\JLink_V512d" executable="JLinkGDBServer.exe" description="" dont_start_server="false" backoff_time="2000" options="0" reg_filter="0" active_family="Generic" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="Energy Micro" />
+						<family_options family_id="Generic">
+							<option opt_id="ID_CMD_BEFORE" opt_value="" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-select USB -device MKL46Z128xxx4 -if SWD -speed 4000" />
+							<option opt_id="ID_CMD_RESET" opt_value="reset init" />
+							<option opt_id="ID_CMD_AFTER" opt_value="load bin/Debug/KL46z.elf&#x0A;monitor reg pc=0x200000c4" />
+						</family_options>
+						<family_options family_id="NXP" />
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

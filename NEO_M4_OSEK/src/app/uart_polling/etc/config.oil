@@ -1,0 +1,48 @@
+OSEK OSEK {
+
+OS	ExampleOS {
+    STATUS = EXTENDED;
+    ERRORHOOK = TRUE;
+    PRETASKHOOK = FALSE;
+	POSTTASKHOOK = FALSE;
+	STARTUPHOOK = FALSE;
+	SHUTDOWNHOOK = FALSE;
+	USERESSCHEDULER = FALSE;
+	MEMMAP = FALSE;
+};
+
+APPMODE = AppMode1;
+
+TASK TaskUartReceive {
+    PRIORITY = 3;
+    ACTIVATION = 1;
+    AUTOSTART = TRUE {
+        APPMODE = AppMode1;
+    }
+    STACK = 512;
+    TYPE = EXTENDED;
+    SCHEDULE = FULL;
+}
+
+TASK TaskLed {
+    PRIORITY = 5;
+    ACTIVATION = 1;
+    STACK = 512;
+    TYPE = BASIC;
+    SCHEDULE = FULL;
+}
+
+}
+
+TASK TaskIdle {
+    PRIORITY = 1;
+    ACTIVATION = 1;
+    AUTOSTART = TRUE {
+        APPMODE = AppMode1;
+    }
+    STACK = 512;
+    TYPE = EXTENDED;
+    SCHEDULE = FULL;
+}
+
+};

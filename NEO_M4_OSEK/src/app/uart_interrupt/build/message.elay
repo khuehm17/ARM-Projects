@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\etc\config.oil" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="437" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="..\main.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8930" topLine="230" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\os\config\inc\cortexM4\Os_Internal_Arch_Cfg.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4732" topLine="93" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\os\config\src\cortexM4\Os_Internal_Arch_Cfg.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6413" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\os\osek\inc\cortexM4\Os_Arch.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4338" topLine="107" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\os\osek\inc\os.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1904" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\CMSIS\Include\core_cm0plus.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18570" topLine="377" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\CMSIS\Include\core_cm4.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21747" topLine="435" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\CMSIS\Include\core_cmSimd.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1952" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\devices\MCIMX6X\include\MCIMX6X_M4.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="927597" topLine="14083" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\devices\MCIMX6X\startup\gcc\startup_MCIMX6X_M4.S" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2458" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\platform\drivers\inc\gpio_imx.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7366" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\services\inc\message.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\services\src\message.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="229" topLine="0" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

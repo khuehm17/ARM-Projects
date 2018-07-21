@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1499235833 source:c:\users\bo\documents\embitz\projects\gdb_debugger_src\src\startup_mkl46z4.s
+
+1499235833 source:c:\users\bo\documents\embitz\projects\gdb_debugger_src\src\system_mkl46z4.c
+	<stdint.h>
+	"MKL46Z4.h"
+
+1499235834 c:\users\bo\documents\embitz\projects\gdb_debugger_src\inc\mkl46z4.h
+	"core_cm0plus.h"
+	"system_MKL46Z4.h"
+
+1499235834 c:\users\bo\documents\embitz\projects\gdb_debugger_src\inc\core_cm0plus.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1499235834 c:\users\bo\documents\embitz\projects\gdb_debugger_src\inc\core_cminstr.h
+	<cmsis_iar.h>
+
+1499235834 c:\users\bo\documents\embitz\projects\gdb_debugger_src\inc\core_cmfunc.h
+	<cmsis_iar.h>
+
+1499235834 c:\users\bo\documents\embitz\projects\gdb_debugger_src\inc\system_mkl46z4.h
+	<stdint.h>
+
+1499235833 source:c:\users\bo\documents\embitz\projects\gdb_debugger_src\src\main.c
+	"MKL46Z4.h"
+

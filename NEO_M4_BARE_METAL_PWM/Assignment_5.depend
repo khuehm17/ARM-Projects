@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1472005756 source:d:\assignment\assignment_5\src\app\assignment_5\main.c
+	"MCIMX6X_M4.h"
+	"ccm_imx6sx.h"
+	"ccm_analog_imx6sx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\board\udoo_neo\src\board.c
+	<stdio.h>
+	"board.h"
+	"debug_console_imx.h"
+	"ccm_imx6sx.h"
+	"rdc.h"
+	"wdog_imx.h"
+	"pin_mux.h"
+
+1468997986 d:\assignment\assignment_5\src\board\udoo_neo\inc\board.h
+	"pin_mux.h"
+	"gpio_pins.h"
+	"rdc.h"
+	"rdc_defs_imx6sx.h"
+	"ccm_imx6sx.h"
+	"clock_freq.h"
+
+1468997986 d:\assignment\assignment_5\src\board\udoo_neo\inc\pin_mux.h
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\devices\device_imx.h
+	"MCIMX6X/include/MCIMX6X_M4.h"
+	"MCIMX7D/include/MCIMX7D_M4.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\devices\mcimx6x\include\mcimx6x_m4.h
+	<stdint.h>
+	"core_cm4.h"
+	"system_MCIMX6X_M4.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\devices\mcimx6x\startup\system_mcimx6x_m4.h
+
+1468997986 d:\assignment\assignment_5\src\board\udoo_neo\inc\gpio_pins.h
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\rdc.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\rdc_defs_imx6sx.h
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\ccm_imx6sx.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\board\udoo_neo\inc\clock_freq.h
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\utilities\inc\debug_console_imx.h
+	<stdint.h>
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\wdog_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\board\udoo_neo\src\gpio_pins.c
+	<assert.h>
+	"gpio_pins.h"
+
+1468997986 source:d:\assignment\assignment_5\src\board\udoo_neo\src\pin_mux.c
+	"pin_mux.h"
+
+1471856262 source:d:\assignment\assignment_5\src\platform\devices\mcimx6x\startup\gcc\startup_mcimx6x_m4.s
+
+1468997986 source:d:\assignment\assignment_5\src\platform\drivers\src\ccm_analog_imx6sx.c
+	"ccm_analog_imx6sx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\ccm_analog_imx6sx.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\platform\drivers\src\ccm_imx6sx.c
+	"ccm_imx6sx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\platform\drivers\src\gpio_imx.c
+	"gpio_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\gpio_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\platform\drivers\src\rdc.c
+	"rdc.h"
+
+1468997986 source:d:\assignment\assignment_5\src\platform\drivers\src\wdog_imx.c
+	"wdog_imx.h"
+
+1468997986 source:d:\assignment\assignment_5\src\platform\utilities\src\debug_console_imx.c
+	<stdbool.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	"device_imx.h"
+	"debug_console_imx.h"
+	"uart_imx.h"
+	"print_scan.h"
+	<yfuns.h>
+
+1468997986 d:\assignment\assignment_5\src\platform\drivers\inc\uart_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997986 d:\assignment\assignment_5\src\platform\utilities\src\print_scan.h
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+
+1471836440 source:d:\assignment\assignment_5\src\platform\devices\mcimx6x\startup\system_mcimx6x_m4.c
+	<stdbool.h>
+	"MCIMX6X_M4.h"
+	"ccm_imx6sx.h"
+	"ccm_analog_imx6sx.h"
+

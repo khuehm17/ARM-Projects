@@ -1,0 +1,401 @@
+# depslib dependency file v1.0
+1468832812 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\app\message\hardware_init.c
+	"board.h"
+	"pin_mux.h"
+	"uart_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\inc\board.h
+	"pin_mux.h"
+	"rdc.h"
+	"rdc_defs_imx6sx.h"
+	"ccm_imx6sx.h"
+	"clock_freq.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\inc\pin_mux.h
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\devices\device_imx.h
+	"MCIMX6X/include/MCIMX6X_M4.h"
+	"MCIMX7D/include/MCIMX7D_M4.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\devices\mcimx6x\include\mcimx6x_m4.h
+	<stdint.h>
+	"core_cm4.h"
+	"system_MCIMX6X_M4.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\cmsis\include\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cmSimd.h>
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\cmsis\include\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\cmsis\include\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\cmsis\include\core_cmsimd.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\devices\mcimx6x\startup\system_mcimx6x_m4.h
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\rdc.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\rdc_defs_imx6sx.h
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\ccm_imx6sx.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\inc\clock_freq.h
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\uart_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468996399 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\app\message\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"board.h"
+	"gpio_pins.h"
+	"gpio_imx.h"
+	"uart_imx.h"
+	"debug_console_imx.h"
+	"os.h"
+	"message.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\inc\gpio_pins.h
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\gpio_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\utilities\inc\debug_console_imx.h
+	<stdint.h>
+	"device_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\os.h
+	"Types.h"
+	"Os_Cfg.h"
+	"Os_Arch.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\types.h
+	"Compiler.h"
+	<stdint.h>
+	<stdbool.h>
+	<cstdint>
+	<cstdbool>
+	"Types_Arch.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\compiler.h
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\types_arch.h
+
+1531809790 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\config\inc\os_cfg.h
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\cortexm4\os_arch.h
+	"Os_Internal_Arch_Cfg.h"
+
+1531809790 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\config\inc\cortexm4\os_internal_arch_cfg.h
+
+1468922986 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\services\inc\message.h
+	<stdint.h>
+	"list_head.h"
+
+1468897578 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\services\inc\list_head.h
+	<stdio.h>
+	<string.h>
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\src\board.c
+	<stdio.h>
+	"board.h"
+	"debug_console_imx.h"
+	"ccm_imx6sx.h"
+	"rdc.h"
+	"wdog_imx.h"
+	"pin_mux.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\wdog_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\src\clock_freq.c
+	"clock_freq.h"
+	"ccm_imx6sx.h"
+	"ccm_analog_imx6sx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\ccm_analog_imx6sx.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\src\gpio_pins.c
+	<assert.h>
+	"gpio_pins.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\board\udoo_neo\src\pin_mux.c
+	"pin_mux.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\activatetask.c
+	"Os_Internal.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\os_internal.h
+	"os.h"
+	"Os_Internal_Arch.h"
+	"Os_Internal_Arch_Cpu.h"
+	"Os_Internal_Arch_Cfg.h"
+	"Os_Internal_Cfg.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\cortexm4\os_internal_arch.h
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\cortexm4\stm32f4\os_internal_arch_cpu.h
+	"chip.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\chip.h
+
+1531809790 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\config\inc\os_internal_cfg.h
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cancelalarm.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\chaintask.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\clearevent.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cortexm4\os_arch.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cortexm4\os_internal_arch.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cortexm4\pendsv.s
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cortexm4\startos_arch.c
+	"Os_Internal.h"
+	"StartOs_Arch_SysTick.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\inc\cortexm4\startos_arch_systick.h
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\cortexm4\startos_arch_systick.c
+	"Os_Internal_Arch_Cpu.h"
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\getactiveapplicationmode.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\getalarm.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\getalarmbase.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\getevent.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\getresource.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\gettaskid.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\gettaskstate.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\os.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\os_internal.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\releaseresource.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\schedule.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\setabsalarm.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\setevent.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\setrelalarm.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\shutdownos.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\startos.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\terminatetask.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\os\osek\src\waitevent.c
+	"Os_Internal.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\devices\mcimx6x\startup\gcc\startup_mcimx6x_m4.s
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\devices\mcimx6x\startup\system_mcimx6x_m4.c
+	<stdbool.h>
+	"MCIMX6X_M4.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\adc_imx6sx.c
+	"adc_imx6sx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\adc_imx6sx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\ccm_analog_imx6sx.c
+	"ccm_analog_imx6sx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\ccm_imx6sx.c
+	"ccm_imx6sx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\ecspi.c
+	"ecspi.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\ecspi.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\epit.c
+	"epit.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\epit.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1468997843 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\flexcan.c
+	"flexcan.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\flexcan.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\gpio_imx.c
+	"gpio_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\i2c_imx.c
+	"i2c_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\i2c_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\lmem.c
+	"lmem.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\lmem.h
+	<stdint.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\mu_imx.c
+	"mu_imx.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\mu_imx.h
+	<stdint.h>
+	<stdbool.h>
+	<assert.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\rdc.c
+	"rdc.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\rdc_semaphore.c
+	<assert.h>
+	"rdc_semaphore.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\rdc_semaphore.h
+	<stdint.h>
+	<stdbool.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\sema4.c
+	<assert.h>
+	"sema4.h"
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\inc\sema4.h
+	<stdint.h>
+	<stdbool.h>
+	"device_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\uart_imx.c
+	"uart_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\drivers\src\wdog_imx.c
+	"wdog_imx.h"
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\utilities\src\debug_console_imx.c
+	<stdbool.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	"device_imx.h"
+	"debug_console_imx.h"
+	"uart_imx.h"
+	"print_scan.h"
+	<yfuns.h>
+
+1467886409 c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\utilities\src\print_scan.h
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+
+1467886409 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\platform\utilities\src\print_scan.c
+	"print_scan.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdint.h>
+	<stdbool.h>
+
+1468909600 source:c:\users\bo\documents\embitz\projects\neo_m4_osek\src\services\src\message.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"os.h"
+	"message.h"
+	"list_head.h"
+

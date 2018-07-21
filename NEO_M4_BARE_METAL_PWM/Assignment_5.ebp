@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="0.42" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="Assignment_5" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Assignment_5.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Device>
+					<Add option="$device=cortex-m4" />
+					<Add option="$arch=armv7e-m" />
+					<Add option="$fpu=fpv4-sp-d16" />
+					<Add option="$lscript=./src/ld/MCIMX6X_M4_tcm.ld" />
+				</Device>
+				<Compiler>
+					<Add option="-mfloat-abi=softfp" />
+					<Add option="-std=gnu99" />
+					<Add option="-O0" />
+					<Add option="-g3" />
+					<Add option="-fdata-sections -ffunction-sections -Wl,--gc-sections" />
+					<Add symbol="CPU_MCIMX6X_M4" />
+					<Add symbol="ARM_MATH_CM4" />
+					<Add symbol="__FPU_PRESENT=1" />
+					<Add symbol="__TARGET_FPU_VFP" />
+				</Compiler>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-eb_lib=n" />
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="arm-none-eabi-objcopy -O binary $(TARGET_OUTPUT_DIR)/$(TARGET_OUTPUT_BASENAME).elf $(TARGET_OUTPUT_DIR)/$(TARGET_OUTPUT_BASENAME).bin" />
+					<Mode before="0" />
+					<Mode after="1" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Assignment_5.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src\app\assignment_5\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\board\udoo_neo\inc\board.h" />
+		<Unit filename="src\board\udoo_neo\inc\gpio_pins.h" />
+		<Unit filename="src\board\udoo_neo\inc\pin_mux.h" />
+		<Unit filename="src\board\udoo_neo\src\board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\board\udoo_neo\src\gpio_pins.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\board\udoo_neo\src\pin_mux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\ld\MCIMX6X_M4_tcm.ld" />
+		<Unit filename="src\platform\devices\device_imx.h" />
+		<Unit filename="src\platform\devices\MCIMX6X\include\MCIMX6X_M4.h" />
+		<Unit filename="src\platform\devices\MCIMX6X\startup\gcc\startup_MCIMX6X_M4.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\devices\MCIMX6X\startup\system_MCIMX6X_M4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\devices\MCIMX6X\startup\system_MCIMX6X_M4.h" />
+		<Unit filename="src\platform\drivers\inc\ccm_analog_imx6sx.h" />
+		<Unit filename="src\platform\drivers\inc\ccm_imx6sx.h" />
+		<Unit filename="src\platform\drivers\inc\gpio_imx.h" />
+		<Unit filename="src\platform\drivers\inc\rdc.h" />
+		<Unit filename="src\platform\drivers\inc\wdog_imx.h" />
+		<Unit filename="src\platform\drivers\src\ccm_analog_imx6sx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\drivers\src\ccm_imx6sx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\drivers\src\gpio_imx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\drivers\src\rdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\drivers\src\wdog_imx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\platform\utilities\inc\debug_console_imx.h" />
+		<Unit filename="src\platform\utilities\src\debug_console_imx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="J-link">
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="C:\Program Files (x86)\SEGGER\JLink_V512d" executable="JLinkGDBServerCL.exe" description="" dont_start_server="false" backoff_time="2000" options="0" reg_filter="0" active_family="Generic">
+						<family_options family_id="Generic">
+							<option opt_id="ID_CMD_BEFORE" opt_value="" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-device cortex-m4 -if JTAG -speed 4000" />
+							<option opt_id="ID_CMD_RESET" opt_value="reset init" />
+							<option opt_id="ID_CMD_AFTER" opt_value="load&#x0A;monitor arm semihosting disable" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>
